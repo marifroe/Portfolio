@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Unreal Engine",
+    "imageSrc": "skills/unrealEngine.png",
+    "level": 100
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png",
+    "level": 70
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png",
+    "level": 70
+  },
+  {
+    "title": "Adobe Photoshop",
+    "imageSrc": "skills/photoshop.png",
+    "level": 70
+  },
+  {
+    "title": "Adobe Lightroom",
+    "imageSrc": "skills/lightroom.png",
+    "level": 70
+  },
+  {
+    "title": "Adobe After Effects",
+    "imageSrc": "skills/aftereffects.png",
+    "level": 80
+  },
+  {
+    "title": "Adobe Illustrator",
+    "imageSrc": "skills/illustrator.png",
+    "level": 70
+  },
+  {
+    "title": "Maya",
+    "imageSrc": "skills/maya.png",
+    "level": 50
+  },
+  {
+    "title": "Swift",
+    "imageSrc": "skills/swift.png",
+    "level": 70
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png",
+    "level": 60
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png",
+    "level": 50
+  }
+]

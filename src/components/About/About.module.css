@@ -1,0 +1,114 @@
+@import '../../vars.css';
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.aboutImg {
+  width: 80%;
+  
+  animation-name: wobble;
+  animation-duration: 0.5s;
+  animation-iteration-count: 3;
+  animation-timing-function: ease-in-out;
+}
+
+.aboutElements {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutElement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.aboutElement:hover {
+  background-size: 100% 100%;
+}
+
+.aboutElement h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutElement p {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImg {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+  }
+
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@keyframes wobble {
+  0% {
+    transform-origin: 10% 80%;
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform-origin: 10% 80%;
+    transform: rotate(-3deg);
+  }
+
+  100% {
+    transform-origin: 10% 80%;
+    transform: rotate(0deg);
+  }
+}

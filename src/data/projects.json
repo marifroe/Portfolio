@@ -1,0 +1,191 @@
+[
+  {
+    "title": "Human Tour Guides for Mixed Reality: A Comparison of Capture and Display Techniques",
+    "imageSrc": "projects/guides.png",
+    "description": "Virtual environments can be complex and overwhelming. In addition, when wearing a bulky head-mounted display one easily feels isolated from the real world. \n For my Master's thesis I investigated how humanoid embodied tour guides could be created to accompany and guide users in a Mixed Reality environment. Working with UE4 and Meta's Quest Pro, I created a Mixed Reality art gallery prototype. I used the prototype as context to test three different representations of guides with varying degrees of visual realism. To simplify the creation process I looked at ways of recording real tour guides to transfer their behavioral realism onto the virtual guides. For example, I explored the Quest's body and face tracking to animate a MetaHuman. Through user testing, I then compared the representations towards Social Presence and overall user acceptance.",
+    "skills": [
+      "Unreal Engine",
+      "Meta Quest",
+      "XR",
+      "Motion Capture"
+    ],
+    "details": "humantourguides",
+    "detailsSections": [
+      {
+        "imageSrc": "",
+        "description": ""
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "InPen",
+    "imageSrc": "projects/inPen.png",
+    "description": "We applied different Design Thinking tools to work out a business model. We came up with a ",
+    "skills": [
+      "Design Thinking",
+      "Business Model Canvas",
+      "Adobe After Effects",
+      "Adobe Illustrator",
+      "Teamwork"
+    ],
+    "details": "",
+    "detailsSections": [
+      {
+        "imageSrc": "",
+        "description": ""
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "Traffic Stream",
+    "imageSrc": "projects/trafficStream.png",
+    "description": "For a semester project, in a group of 2 we implemented an interactive prototype with React, TypeScript, deck.gl and mapbox to visualize traffic data on a map. The app comprises an overview and detail view to visualize waiting times and routes of cyclists at street crossings. We came up with a design concept to improve the User Experience and create a clearly arranged User Interface which we presented and discussed in regular meetings with the product owners.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Docker",
+      "deck.gl",
+      "mapbox",
+      "UX Design",
+      "UI Design",
+      "Data Visualization",
+      "Figma"
+    ],
+    "details": "",
+    "detailsSections": [
+      {
+        "imageSrc": "",
+        "description": ""
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "VR Data Room",
+    "imageSrc": "",
+    "description": "",
+    "skills": [
+      "Interactive Data Visualization",
+      "VR",
+      "UX Design"
+    ],
+    "details": "",
+    "detailsSections": [
+      {
+        "imageSrc": "",
+        "description": ""
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "Quest's Face Tracking for MetaHuman",
+    "imageSrc": "projects/faceTrackingMetaHuman.png",
+    "description": "Meta's Quest Pro comes with face tracking. By using a Meta's version of the Unreal Engine 4, I applied the face tracking values to animate a Meta Human's face. ",
+    "skills": [
+      "Motion Capture",
+      "VR",
+      "MetaHuman",
+      "Unreal Engine",
+      "Meta Quest Pro"
+    ],
+    "details": "",
+    "detailsSections": [
+      {
+        "imageSrc": "",
+        "description": ""
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "Ballet Lesson",
+    "imageSrc": "projects/ballet.png",
+    "description": "For a semester project, we had to create a little animated scene. Therefore, I wrote a story board, rigged the Lego man and animated the scene.",
+    "skills": [
+      "Maya",
+      "Animation",
+      "Rigging",
+      "Storyboard"
+    ],
+    "details": "",
+    "detailsSections": [
+      {
+        "imageSrc": "",
+        "description": ""
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "Shopping Helper",
+    "imageSrc": "projects/navigating.png",
+    "description": "",
+    "skills": [
+      "Stakeholder Analysis",
+      "Personas",
+      "Claims",
+      "Prototyping",
+      "Storyboard"
+    ],
+    "details": "",
+    "detailsSections": [
+      {
+        "imageSrc": "",
+        "description": ""
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "Cooking App Prototype",
+    "imageSrc": "projects/kochApp.png",
+    "description": "In a group of 2, we developped a paper prototype for a cooking app for beginners.",
+    "skills": [
+      "Prototyping"
+    ],
+    "details": "",
+    "detailsSections": [
+      {
+        "imageSrc": "",
+        "description": ""
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "Sundial",
+    "imageSrc": "projects/sundial.jpg",
+    "description": "Based off of photographs, I modelled a Sundial using Autodesk Maya.",
+    "skills": [
+      "Modelling",
+      "Maya"
+    ],
+    "details": "",
+    "detailsSections": [
+      {
+        "imageSrc": "",
+        "description": ""
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "Game of Life",
+    "imageSrc": "projects/gameoflife2.jpg",
+    "description": "I developed Game of Life in C++.",
+    "skills": [
+      "C++"
+    ],
+    "details": "",
+    "detailsSections": [
+      {
+        "imageSrc": "",
+        "description": ""
+      }
+    ],
+    "source": ""
+  }
+]

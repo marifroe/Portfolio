@@ -1,0 +1,50 @@
+[
+  {
+    "role": "iOS App Developer",
+    "level": "Intern",
+    "company": "SAP",
+    "startDate": "Mar, 2017",
+    "endDate": "Aug, 2017",
+    "experiences": [
+      "Swift",
+      "UX Design"
+    ],
+    "imageSrc": "experience/sap.png"
+  },
+  {
+    "role": "iOS App Developer",
+    "level": "Working Student",
+    "company": "SAP",
+    "startDate": "Mar, 2017",
+    "endDate": "Aug, 2017",
+    "experiences": [
+      "Swift",
+      "placeholder"
+    ],
+    "imageSrc": "experience/sap.png"
+  },
+  {
+    "role": "Full Stack Developer",
+    "level": "Working Student",
+    "company": "SAP",
+    "startDate": "Mar, 2017",
+    "endDate": "Aug, 2017",
+    "experiences": [
+      "Java",
+      "SAP UI5"
+    ],
+    "imageSrc": "experience/sap.png"
+  },
+  {
+    "role": "Unreal Engine Developer",
+    "level": "Working Student",
+    "company": "SAP",
+    "startDate": "Mar, 2017",
+    "endDate": "Aug, 2017",
+    "experiences": [
+      "Unreal Engine 4 + 5",
+      "Meta Quest"
+    ],
+    "imageSrc": "experience/sap.png"
+  }
+]

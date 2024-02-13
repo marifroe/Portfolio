@@ -1,0 +1,24 @@
+:root {
+  /* Colors */
+  --color-text-dark: #023047;
+  --color-text-light: #dfdfdf;
+  --color-primary: #219ebc;
+  --color-secondary: #8ecae6;
+  --color-tertiary: #ffb703;
+  --color-dark: #0b2447;
+  --color-bg: #eefbff;
+  --color-highlight: #fb8500;
+  --color-neutral-lighter: #dfdfdf;
+  --color-neutral-light: #dadada;
+  --color-neutral-medium: #a4a4a4;
+  --color-neutral-dark: #595959;
+  --color-neutral-darker: #252525;
+  --color-pop-1: #F8FFA3;
+
+  --color-pop-2: #0058C0;
+  --color-pop-3: #005641;
+  --color-pop-4: #F8FFDB;
+
+  /* Fonts */
+  --font-abril-fatface: "Abril Fatface"
+}

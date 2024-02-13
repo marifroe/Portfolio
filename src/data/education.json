@@ -1,0 +1,40 @@
+[
+  {
+    "Institute": "Technical University Dresden",
+    "degree": "M. Sc. Computer Science and Media",
+    "grade": "1.5",
+    "description": "placeholder",
+    "experiences": [
+      "Software Management",
+      "Immersive Media",
+      "Data Visualization"
+    ],
+    "imageSrc": "education/tu.png"
+  },
+  {
+    "Institute": "Northern Arizona University",
+    "degree": "Visual Communication (Semester Abroad)",
+    "grade": "GPA 4.0",
+    "description": "placeholder",
+    "experiences": [
+      "Photography"
+    ],
+    "imageSrc": "education/nau.png"
+  },
+  {
+    "Institute": "University of Applied Sciences Dresden",
+    "degree": "B. Sc. Computer Science and Media",
+    "grade": "1.4",
+    "description": "placeholder",
+    "experiences": [],
+    "imageSrc": "education/htw.png"
+  },
+  {
+    "Institute": "Hannah-Arendt-Gymnasium Haßloch",
+    "degree": "M. Sc. Computer Science and Media",
+    "grade": null,
+    "description": "placeholder",
+    "experiences": [],
+    "imageSrc": "education/hag.png"
+  }
+]
