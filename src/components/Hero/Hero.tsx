@@ -1,5 +1,4 @@
 import styles from './Hero.module.css'
-import heroImg from '../../assets/lamp.png'
 
 export const Hero = () => {
   return(
