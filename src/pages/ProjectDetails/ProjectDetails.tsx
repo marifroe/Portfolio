@@ -17,7 +17,11 @@ export const ProjectDetails = () => {
       {project
         ?
         <div className={styles.container}>
-          <a href={`/#projects`} className={styles.link}> Back </a>
+          <Link to={{
+            pathname: '/',
+            hash: '#projects'
+          }} className={styles.link}>Back</Link>
+          {/*<a href={`/#projects`} className={styles.link}> Back </a>*/}
           <h1 className={styles.title}>{project.title}</h1>
           <div>{project.description}</div>
           {
