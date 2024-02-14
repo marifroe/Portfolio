@@ -1,5 +1,5 @@
 import styles from './ProjectDetails.module.css'
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import projects from '../../data/projects.json'
 import { getImageUrl } from '../../utils'
 
@@ -15,17 +15,21 @@ export const ProjectDetails = () => {
   return (
     <div className={styles.container}>
       {project
-        ? <div>
-          <img src={getImageUrl({ path: project?.imageSrc })} alt={`Preview Image for ${project?.title}`} className={styles.image} />
-          <h1>{project?.title}</h1>
-          <div>{project?.description}</div>
+        ?
+        <div className={styles.container}>
+          <a href={`/`} className={styles.link}> Back </a>
+          <h1 className={styles.title}>{project.title}</h1>
+          <div>{project.description}</div>
           {
             project?.detailsSections.map(section => {
               return (
-                <div>
-                  <img src={section.imageSrc}></img>
-                  <div className={styles.sectionDescription}>
-                    {section.description}
+                <div key={section.title} className={styles.sectionContainer}>
+                  <h2 className={styles.sectionTitle}>{section.title}</h2>
+                  <div className={styles.sectionContent}>
+                    <img src={getImageUrl({ path: section.mediaSrc })} alt={`Preview Image for ${section.title}`} className={styles.sectionImage} />
+                    <div className={styles.sectionText}>
+                        {section.text}
+                      </div>
                   </div>
                 </div>
               )

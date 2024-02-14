@@ -6,7 +6,8 @@
   --color-secondary: #8ecae6;
   --color-tertiary: #ffb703;
   --color-dark: #0b2447;
-  --color-bg: #eefbff;
+  /*--color-bg: #eefbff;*/
+  --color-bg: #fff;
   --color-highlight: #fb8500;
   --color-neutral-lighter: #dfdfdf;
   --color-neutral-light: #dadada;

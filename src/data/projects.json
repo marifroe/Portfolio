@@ -12,8 +12,10 @@
     "details": "humantourguides",
     "detailsSections": [
       {
-        "imageSrc": "",
-        "description": ""
+        "title": "Test",
+        "text": "Bla Bla Bla",
+        "mediaSrc": "projects/guides.png",
+        "mediaType": "img"
       }
     ],
     "source": ""
@@ -32,8 +34,10 @@
     "details": "",
     "detailsSections": [
       {
-        "imageSrc": "",
-        "description": ""
+        "title": "",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": ""
       }
     ],
     "source": ""
@@ -56,8 +60,10 @@
     "details": "",
     "detailsSections": [
       {
-        "imageSrc": "",
-        "description": ""
+        "title": "",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": ""
       }
     ],
     "source": ""
@@ -74,8 +80,10 @@
     "details": "",
     "detailsSections": [
       {
-        "imageSrc": "",
-        "description": ""
+        "title": "",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": ""
       }
     ],
     "source": ""
@@ -94,8 +102,10 @@
     "details": "",
     "detailsSections": [
       {
-        "imageSrc": "",
-        "description": ""
+        "title": "",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": ""
       }
     ],
     "source": ""
@@ -113,8 +123,10 @@
     "details": "",
     "detailsSections": [
       {
-        "imageSrc": "",
-        "description": ""
+        "title": "",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": ""
       }
     ],
     "source": ""
@@ -133,15 +145,17 @@
     "details": "",
     "detailsSections": [
       {
-        "imageSrc": "",
-        "description": ""
+        "title": "",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": ""
       }
     ],
     "source": ""
   },
   {
     "title": "Cooking App Prototype",
-    "imageSrc": "projects/kochApp.png",
+    "imageSrc": "projects/KochApp.png",
     "description": "In a group of 2, we developped a paper prototype for a cooking app for beginners.",
     "skills": [
       "Prototyping"
@@ -149,8 +163,10 @@
     "details": "",
     "detailsSections": [
       {
-        "imageSrc": "",
-        "description": ""
+        "title": "",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": ""
       }
     ],
     "source": ""
@@ -166,8 +182,10 @@
     "details": "",
     "detailsSections": [
       {
-        "imageSrc": "",
-        "description": ""
+        "title": "",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": ""
       }
     ],
     "source": ""
@@ -182,8 +200,10 @@
     "details": "",
     "detailsSections": [
       {
-        "imageSrc": "",
-        "description": ""
+        "title": "",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": ""
       }
     ],
     "source": ""
