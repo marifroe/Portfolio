@@ -1,7 +1,7 @@
 import styles from './ProjectDetails.module.css'
 import { Link, useParams } from "react-router-dom"
 import projects from '../../data/projects.json'
-import { getImageUrl } from '../../utils'
+import { getImageUrl, YoutubeVideo } from '../../utils'
 
 
 type ProjectParams = {
@@ -33,12 +33,7 @@ export const ProjectDetails = () => {
                     {
                       (section.mediaType == "img")
                       ?<img src={getImageUrl({ path: section.mediaSrc })} alt={`Preview Image for ${section.title}`} className={styles.sectionImage} />
-                      :<iframe 
-                        width="560" 
-                        height="315" 
-                        src={section.mediaSrc} 
-                        data-allow="encrypted-media" 
-                        allowFullScreen></iframe>
+                      :<YoutubeVideo embedId={section.mediaSrc}/>
                     }
                     <div className={styles.sectionText}>
                         {section.text}

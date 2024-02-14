@@ -53,5 +53,15 @@
     "title": "Java",
     "imageSrc": "skills/java.png",
     "level": 50
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "",
+    "level": 70
+  },
+  {
+    "title": "Blender",
+    "imageSrc": "",
+    "level": 70
   }
 ]
