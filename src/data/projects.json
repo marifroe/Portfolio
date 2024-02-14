@@ -76,6 +76,12 @@
         "text": "We aimed for an intuitive interaction to select multiple waiting points and group them to a street crossing.",
         "mediaSrc": "projects/trafficstreaminteractiondesign.png",
         "mediaType": "img"
+      },
+      {
+        "title": "Claims Analysis",
+        "text": "We did a claims analysis as basis for design decisions.",
+        "mediaSrc": "projects/trafficstreamclaimspersp.png",
+        "mediaType": "img"
       }
     ],
     "source": ""

@@ -1,13 +1,12 @@
 @import '../../vars.css';
 
 .container {
+  position: relative;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  width: 80%;
-  max-width: 1500px;
-  margin: 0 auto;
   gap: 20px;
+  padding: 5%;
 }
 
 .image {
@@ -32,7 +31,6 @@
 }
 
 .sectionContainer {
-  width: 100%;
   max-width: 1500px;
   margin: 50px auto;
 }
@@ -61,4 +59,16 @@
 
 .sectionText {
   width: 45%;
+}
+
+@media screen and (max-width: 830px) {
+  .sectionContent {
+    flex-direction: column-reverse;
+  }
+  .sectionImage {
+    width: 100%;
+  }
+  .sectionText {
+    width: 100%;
+  }
 }
