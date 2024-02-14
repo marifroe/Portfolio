@@ -1,6 +1,6 @@
 import styles from './Experience.module.css'
 import skills from '../../data/skills.json'
-import workingExperience from '../../data/experience.json'
+/*import workingExperience from '../../data/experience.json'*/
 import { getImageUrl } from '../../utils'
 
 type ExperienceProps = {

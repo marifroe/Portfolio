@@ -11,7 +11,6 @@ type ProjectParams = {
 export const ProjectDetails = () => {
   const params = useParams() as ProjectParams;
   const project = projects?.find(project => project.details == params.projectId)
-  const sections = project?.detailsSections
   
   return (
     <div className={styles.container}>
