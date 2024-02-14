@@ -33,3 +33,4 @@ export default {
 
 # Tutorials
 1. _Routing:_ https://www.youtube.com/watch?v=oTIJunBa6MA
+2. github pages deploy vite: https://github.com/ErickKS/vite-deploy
