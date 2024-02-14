@@ -34,3 +34,5 @@ export default {
 # Tutorials
 1. _Routing:_ https://www.youtube.com/watch?v=oTIJunBa6MA
 2. github pages deploy vite: https://github.com/ErickKS/vite-deploy
+3. github pages react: https://github.com/gitname/react-gh-pages
+3. github pages react: https://blog.logrocket.com/deploying-react-apps-github-pages/
