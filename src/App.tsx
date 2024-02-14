@@ -8,10 +8,6 @@ import { Contact } from './components/Contact/Contact'
 function App() {
   const sections = [
     {
-      text: 'About',
-      link: '#about',
-    },
-    {
       text: 'Experience',
       link: '#experience',
     },
@@ -38,8 +34,8 @@ function App() {
       <Navbar title='Marilena&#39;s Portfolio' elements={sections} iconMenuSrc='nav/menuIcon.png' iconCloseSrc='nav/closeIcon.png'/>
       <Hero />
       {/*<About title={sections[0].text} elements={aboutElements} />*/}
-      <Experience title={sections[1].text} />
-      <Projects title={sections[2].text} />
+      <Experience title={sections[0].text} />
+      <Projects title={sections[1].text} />
   <Contact title='Contact'/>
     </div>
   )

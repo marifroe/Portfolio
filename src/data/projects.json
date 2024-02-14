@@ -12,9 +12,15 @@
     "details": "humantourguides",
     "detailsSections": [
       {
-        "title": "Test",
-        "text": "Bla Bla Bla",
+        "title": "Representations of Guides",
+        "text": "I did user tests to compare the guides towards social aspects and user satisfaction. I therefore combined subjective and objective measures.",
         "mediaSrc": "projects/guides.png",
+        "mediaType": "img"
+      },
+      {
+        "title": "Interaction",
+        "text": "I provided the user with a personal menu. Whenever a hand is rotated towards the face with all fingers stretched, the menu appears. This gesture is more comfortable and reliable than a 'looking-at-a-watch' gesture. The user does then interact with the menu by tapping the buttons.",
+        "mediaSrc": "projects/guidesmenu.png",
         "mediaType": "img"
       }
     ],
@@ -43,7 +49,7 @@
     "source": ""
   },
   {
-    "title": "Traffic Stream",
+    "title": "Traffic Stream: Waiting Times",
     "imageSrc": "projects/trafficStream.png",
     "description": "For a semester project, in a group of 2 we implemented an interactive prototype with React, TypeScript, deck.gl and mapbox to visualize traffic data on a map. The app comprises an overview and detail view to visualize waiting times and routes of cyclists at street crossings. We came up with a design concept to improve the User Experience and create a clearly arranged User Interface which we presented and discussed in regular meetings with the product owners.",
     "skills": [
@@ -57,13 +63,19 @@
       "Data Visualization",
       "Figma"
     ],
-    "details": "",
+    "details": "trafficstream",
     "detailsSections": [
       {
-        "title": "",
-        "text": "",
-        "mediaSrc": "",
-        "mediaType": ""
+        "title": "Visual Design",
+        "text": "We used Figma to create a visual design concept.",
+        "mediaSrc": "projects/trafficstreamdesignprocess.png",
+        "mediaType": "img"
+      },
+      {
+        "title": "Interaction Design",
+        "text": "We aimed for an intuitive interaction to select multiple waiting points and group them to a street crossing.",
+        "mediaSrc": "projects/trafficstreaminteractiondesign.png",
+        "mediaType": "img"
       }
     ],
     "source": ""
@@ -196,6 +208,25 @@
     "description": "I developed Game of Life in C++.",
     "skills": [
       "C++"
+    ],
+    "details": "",
+    "detailsSections": [
+      {
+        "title": "",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": ""
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "Design Concept for HTW Dresden Website",
+    "imageSrc": "projects/WebsiteDesign.jpg",
+    "description": "I did a draft for a redesign of the HTW Dresden website using Photoshop.",
+    "skills": [
+      "Photoshop",
+      "Layout"
     ],
     "details": "",
     "detailsSections": [

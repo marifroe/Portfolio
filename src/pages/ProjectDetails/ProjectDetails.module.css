@@ -17,7 +17,6 @@
 }
 
 .title {
-  font-family: var(--font-abril-fatface), 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--color-text);
   font-size: 35px;
   font-weight: 700;
@@ -47,7 +46,6 @@
 }
 
 .sectionTitle {
-  font-family: var(--font-abril-fatface), 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sectionContent {

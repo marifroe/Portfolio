@@ -2,9 +2,7 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 200px 10%;
 }
 
 .title {
@@ -13,6 +11,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .content {
@@ -38,7 +37,7 @@
 }
 
 .skillImageContainer {
-  background-color: var(--color-secondary);
+  background-color: var(--color-pop-3);
   border-radius: 100%;
   display: flex;
   align-items: center;
