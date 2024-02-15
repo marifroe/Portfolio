@@ -9,8 +9,10 @@ type ExperienceProps = {
 
 export const Experience = (props: ExperienceProps) => {
   return (
-    <section className={styles.container} id={props.title}>
-      <h2 className={styles.title}>{props.title}</h2>
+    <section className={styles.container} id='experience'>
+      <div className={styles.titleBox}>
+        <h2 className={styles.title}>{props.title}</h2>
+      </div>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {

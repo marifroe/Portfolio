@@ -2,16 +2,30 @@
 
 .container {
   color: var(--color-text);
-  margin: 200px 10%;
+  padding: 100px 10%;
+  background: var(--color-neutral-light);
+  background-image: linear-gradient(rgba(23, 23, 23, 0.2) .1em, transparent .1em), linear-gradient(90deg, rgba(23, 23, 23, 0.2) .1em, transparent .1em);
+  background-size: 3em 3em;
 }
 
 .title {
+  display: table;
   color: var(--color-text);
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
   text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.titleBox {
+  background: var(--color-neutral-light);
+  border-radius: 15px;
+  padding: 10px 30px;
+  margin: 0 auto 50px auto;
+  width: fit-content;
 }
 
 .content {
@@ -59,8 +73,10 @@
   font-size: 18px;
   text-align: center;
   /*font-familiy:*/
-  font-weight: 500;
+  font-weight: 700;
   width: 80px;
+  background-color: var(--color-neutral-light);
+  padding: 5px;
 }
 
 .experience {
