@@ -3,7 +3,7 @@
 .container {
   color: var(--color-text);
   overflow: visible;
-  background: var(--color-pop-1);
+  background: var(--color-neutral-darker);
   padding: 100px 20px;
 }
 
@@ -13,12 +13,9 @@
 }
 
 .title {
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75;
-  text-transform: uppercase;
   text-align: center;
   margin-bottom: 50px;
+  color: var(--color-neutral-lighter)
 }
 
 .projects {

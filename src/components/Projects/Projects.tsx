@@ -32,8 +32,8 @@ export const Projects = (props: ProjectsProps) => {
       <h2 className={styles.title}>
         {props.title}
       </h2>
-      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 800: 2, 1300: 3, 1700: 4, 1900: 5}}>
-        <Masonry gutter='15px'>
+      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 800: 1, 1300: 2, 1800: 3}}>
+        <Masonry gutter='40px'>
           {projects.map((project, id) => {
             return <ProjectCard key={id} project={project} />
           })}
