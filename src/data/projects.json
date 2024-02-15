@@ -9,6 +9,9 @@
       "XR",
       "Motion Capture"
     ],
+    "task": "",
+    "context": "Masters Thesis at TU Dresden towards M.Sc. Computer Science and Media",
+    "contribution": "",
     "details": "humantourguides",
     "detailsSections": [
       {
@@ -37,6 +40,9 @@
       "Adobe Illustrator",
       "Teamwork"
     ],
+    "task": "",
+    "context": "Group Project for Course Software as a Business",
+    "contribution": "",
     "details": "inpen",
     "detailsSections": [
       {
@@ -63,8 +69,17 @@
       "Data Visualization",
       "Figma"
     ],
+    "task": "Substitute existing Prototype to improve Usability",
+    "context": "Group Project for Course Mobile and Ubiquituous Computing; Group of 2",
+    "contribution": "Equal distribution of Tasks.",
     "details": "trafficstream",
     "detailsSections": [
+      {
+        "title": "Claims Analysis",
+        "text": "We did a claims analysis as basis for design decisions.",
+        "mediaSrc": "projects/trafficstreamclaimspersp.png",
+        "mediaType": "img"
+      },
       {
         "title": "Visual Design",
         "text": "We used Figma to create a visual design concept.",
@@ -73,14 +88,14 @@
       },
       {
         "title": "Interaction Design",
-        "text": "We aimed for an intuitive interaction to select multiple waiting points and group them to a street crossing.",
+        "text": "We aimed for an intuitive interaction to select multiple waiting points and group them to a street crossing. We evaluated different approaches towards usability, intuitiveness and implementation.",
         "mediaSrc": "projects/trafficstreaminteractiondesign.png",
         "mediaType": "img"
       },
       {
-        "title": "Claims Analysis",
-        "text": "We did a claims analysis as basis for design decisions.",
-        "mediaSrc": "projects/trafficstreamclaimspersp.png",
+        "title": "Overview, Zoom and Filter, Details on Demand",
+        "text": "We followed Shneiderman's visualization mantra \"Overview first, zoom and filter, details on demand\".",
+        "mediaSrc": "projects/trafficstreamcrossing.png",
         "mediaType": "img"
       }
     ],
@@ -95,6 +110,9 @@
       "VR",
       "UX Design"
     ],
+    "task": "",
+    "context": "",
+    "contribution": "",
     "details": "",
     "detailsSections": [
       {
@@ -117,13 +135,16 @@
       "Unreal Engine",
       "Meta Quest Pro"
     ],
-    "details": "",
+    "task": "",
+    "context": "",
+    "contribution": "",
+    "details": "facetracking",
     "detailsSections": [
       {
         "title": "",
         "text": "",
-        "mediaSrc": "",
-        "mediaType": ""
+        "mediaSrc": "PphSfkBe85A",
+        "mediaType": "vid"
       }
     ],
     "source": ""
@@ -131,13 +152,16 @@
   {
     "title": "Ballet Lesson",
     "imageSrc": "projects/ballet.png",
-    "description": "For a semester project, we had to create a little animated scene. Therefore, I wrote a story board, rigged the Lego man and animated the scene.",
+    "description": "For a semester project, I had to create a little animated scene. Therefore, I wrote a story board, rigged the Lego man and animated the scene.",
     "skills": [
       "Maya",
       "Animation",
       "Rigging",
       "Storyboard"
     ],
+    "task": "",
+    "context": "",
+    "contribution": "",
     "details": "ballettlesson",
     "detailsSections": [
       {
@@ -150,9 +174,9 @@
     "source": ""
   },
   {
-    "title": "Shopping Helper",
+    "title": "Shopping Knob",
     "imageSrc": "projects/navigating.png",
-    "description": "",
+    "description": "The goal was to develop a prototype to support a healthier lifestyle.",
     "skills": [
       "Stakeholder Analysis",
       "Personas",
@@ -160,13 +184,34 @@
       "Prototyping",
       "Storyboard"
     ],
-    "details": "",
+    "task": "Develop prototype to support a healthier lifestyle.",
+    "context": "University Project for the course User Interface Engineering; Group Size: 4",
+    "contribution": "contribution to all phases",
+    "details": "shopknob",
     "detailsSections": [
       {
-        "title": "",
-        "text": "",
-        "mediaSrc": "",
-        "mediaType": ""
+        "title": "Brainstorming",
+        "text": "We started off with brainstorming to come up with first visions and ideas. Based off of a collection of factors which make up a healthy lifestyle we decided on the reduction of stress.",
+        "mediaSrc": "projects/shopknobbrainstorming.png",
+        "mediaType": "img"
+      },
+      {
+        "title": "Analysis Phase",
+        "text": "The analysis phase consisted of field studies, interviews, stakeholderdiagram, definition of personas and a hierarchical task analysis (see fig.).",
+        "mediaSrc": "projects/shopknobhta.png",
+        "mediaType": "img"
+      },
+      {
+        "title": "Design Phase",
+        "text": "The design phase comprised Activity Design, Information Design and Interaction Design. For each design phase we summed up the features to rate them towards future implementation. The design phases led us to a storyboard and a paper prototype. \n We listed problem scenarios and transformed them into activity scenarios to get an idea of how the personas would address their problems as of now. We then put together claims to rate the key features of the activity design. Next, based on the activity design, we listed information design scenarios to find ways to support the activities. Again, a table of claims helped us to rate the information design features.",
+        "mediaSrc": "projects/shopknobstoryboard.png",
+        "mediaType": "img"
+      },
+      {
+        "title": "User Testing",
+        "text": "We ran user tests to find out how our prototype performs. The subjects had to complete a set of tasks and were asked to \"think out loud\" and answer a questionnaire.",
+        "mediaSrc": "projects/shopknobprototype.png",
+        "mediaType": "img"
       }
     ],
     "source": ""
@@ -174,10 +219,15 @@
   {
     "title": "Cooking App Prototype",
     "imageSrc": "projects/KochApp.png",
-    "description": "In a group of 2, we developped a paper prototype for a cooking app for beginners.",
+    "description": "Development of a paper prototype for a cooking app for beginners.",
     "skills": [
-      "Prototyping"
+      "Prototyping",
+      "UX Design",
+      "Interface Design"
     ],
+    "task": "",
+    "context": "University Project; Group Size: 2",
+    "contribution": "",
     "details": "woodenspoon",
     "detailsSections": [
       {
@@ -197,6 +247,9 @@
       "Modelling",
       "Maya"
     ],
+    "task": "",
+    "context": "",
+    "contribution": "",
     "details": "",
     "detailsSections": [
       {
@@ -215,6 +268,9 @@
     "skills": [
       "C++"
     ],
+    "task": "",
+    "context": "",
+    "contribution": "",
     "details": "",
     "detailsSections": [
       {
@@ -227,13 +283,16 @@
     "source": ""
   },
   {
-    "title": "Design Concept for HTW Dresden Website",
+    "title": "Design Concept for HTW Dresden Homepage",
     "imageSrc": "projects/WebsiteDesign.jpg",
     "description": "I did a draft for a redesign of the HTW Dresden website using Photoshop.",
     "skills": [
       "Photoshop",
       "Layout"
     ],
+    "task": "Redesign existing Homepage using given content. Pay attention to layout guidelines.",
+    "context": "Project for Bachelor",
+    "contribution": "all",
     "details": "",
     "detailsSections": [
       {
@@ -241,6 +300,29 @@
         "text": "",
         "mediaSrc": "",
         "mediaType": ""
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "Portfolio",
+    "imageSrc": "projects/portfolio.png",
+    "description": "Design and implementation of my portfolio. Work in progress.",
+    "skills": [
+      "Figma",
+      "Typescript",
+      "React"
+    ],
+    "task": "Design a responsive portfolio in less than a week.",
+    "context": "Personal",
+    "contribution": "all",
+    "details": "portfolio",
+    "detailsSections": [
+      {
+        "title": "Design in Figma",
+        "text": "",
+        "mediaSrc": "projects/portfolio.png",
+        "mediaType": "img"
       }
     ],
     "source": ""

@@ -7,10 +7,10 @@ import { Contact } from './components/Contact/Contact'
 
 function App() {
   const sections = [
-    {
+    /*{
       text: 'Experience',
       link: '#experience',
-    },
+    },*/
     {
       text: 'Projects',
       link: '#projects',
@@ -33,10 +33,10 @@ function App() {
     <div className={styles.App}>
       <Navbar title='Marilena&#39;s Portfolio' elements={sections} iconMenuSrc='nav/menuIcon.png' iconCloseSrc='nav/closeIcon.png'/>
       <Hero />
-      {/*<About title={sections[0].text} elements={aboutElements} />*/}
-      <Experience title={sections[0].text} />
-      <Projects title={sections[1].text} />
-  <Contact title='Contact'/>
+      {/*<About title={sections[0].text} elements={aboutElements} />
+      <Experience title={sections[0].text} />*/}
+      <Projects title={sections[0].text} />
+      <Contact title={sections[1].text}/>
     </div>
   )
 }

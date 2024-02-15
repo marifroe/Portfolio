@@ -4,6 +4,8 @@ type GetUrlProps = {
 
 type YoutubeProps = {
   embedId: string
+  width: number
+  height: number
 }
 
 export const getImageUrl = (props: GetUrlProps) => {
@@ -14,8 +16,8 @@ export const getImageUrl = (props: GetUrlProps) => {
 export const YoutubeVideo = (props: YoutubeProps) => {
   return <div className="video-responsive">
     <iframe
-      width="853"
-      height="480"
+      width={props.width}
+      height={props.height}
       src={`https://www.youtube.com/embed/${props.embedId}`}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen

@@ -30,6 +30,22 @@
   margin-top: 14px;
 }
 
+.generalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.generalElement {
+  max-width: 600px;
+  margin: 0 50px;
+}
+
+.skillsList {
+  list-style-type: none;
+}
+
 .sectionContainer {
   max-width: 1500px;
   margin: 50px auto;

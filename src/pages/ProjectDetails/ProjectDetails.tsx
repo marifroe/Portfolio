@@ -23,7 +23,30 @@ export const ProjectDetails = () => {
           }} className={styles.link}>Back</Link>
           {/*<a href={`/#projects`} className={styles.link}> Back </a>*/}
           <h1 className={styles.title}>{project.title}</h1>
-          <div>{project.description}</div>
+          <div className={styles.generalContainer}>
+            <div className={styles.generalElement}>
+              <h3>Description</h3>
+              <p>{project.description}</p>
+            </div>
+            <div className={styles.generalElement}>
+              <h3>Task</h3>
+              <p>{project.task}</p>
+            </div>
+            <div className={styles.generalElement}>
+              <h3>Context</h3>
+              <p>{project.context}</p>
+            </div>
+            <div className={styles.generalElement}>
+              <h3>Contribution</h3>
+              <p>{project.contribution}</p>
+            </div>
+            <div className={styles.generalElement}>
+              <h3>Skills</h3>
+              <ul className={styles.skillsList}>{project.skills.map(skill => {
+                return <li>{skill}</li>
+              })}</ul>
+            </div>
+          </div>
           {
             project?.detailsSections.map(section => {
               return (
@@ -33,7 +56,7 @@ export const ProjectDetails = () => {
                     {
                       (section.mediaType == "img")
                       ?<img src={getImageUrl({ path: section.mediaSrc })} alt={`Preview Image for ${section.title}`} className={styles.sectionImage} />
-                      :<YoutubeVideo embedId={section.mediaSrc}/>
+                        : <YoutubeVideo embedId={section.mediaSrc} width={853} height={480} />
                     }
                     <div className={styles.sectionText}>
                         {section.text}
