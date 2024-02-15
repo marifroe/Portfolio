@@ -5,16 +5,33 @@
   background: linear-gradient(180deg, var(--color-pop-3) 0%, var(--color-pop-5) 100%);
   padding: 30px;
   margin-top: 129px;
+  overflow: hidden;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  color: #fff;
+  filter: invert(18%) sepia(42%) saturate(1690%) hue-rotate(130deg) brightness(96%) contrast(103%);
 }
 
 .box {
-  background: var(--color-pop-3);
+  /*background: var(--color-pop-3);*/
   border-radius: 15px;
   margin: 100px 30%;
   max-width: 1500px;
   z-index: 1;
   padding: 50px 4%;
   color: #fff;
+
+  /* Frosted Glass Effect */
+  background: #d2fff418;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  border: 1px solid #00423254;
 }
 
 .content {
@@ -97,6 +114,10 @@
     display: none;
   }
 
+  .bgImage {
+    display: none;
+  }
+
   .aboutItems {
     margin-top: 29px;
   }
@@ -125,13 +146,18 @@
 }
 
 @media screen and (max-width: 830px) {
+
+  .container {
+    padding: 0;
+  }
+
   .box {
     background: none;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .content {
-    align-items: center;
+    text-align: left;
   }
 }

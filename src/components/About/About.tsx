@@ -1,3 +1,4 @@
+import { getImageUrl } from '../../utils'
 import styles from './About.module.css'
 
 type AboutProps = {
@@ -11,6 +12,7 @@ type AboutProps = {
 export const About = (props: AboutProps) => {
   return (
     <section className={styles.container} id='about'>
+      <img src={getImageUrl({path: 'wobbles.svg'})} className={styles.bgImage} />
       <div className={styles.box}>
         <h2 className={styles.title}>{props.title}</h2>
         <div className={styles.content}>
