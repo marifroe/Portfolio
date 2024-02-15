@@ -2,19 +2,25 @@
 
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
-  border-radius: 15px;
-  padding: 73px;
+  background-color: var(--color-pop-3);
+  padding: 30px;
   margin-top: 129px;
+}
+
+.box {
+  background: rgba(255, 255, 255, .9);
+  border-radius: 15px;
+  margin: 100px 20%;
+  max-width: 1500px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: 50px 2%;
 }
 
 .content {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  font-size: larger;
+  font-weight: 500;
 }
 
 .title {
@@ -23,6 +29,8 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .aboutImg {
