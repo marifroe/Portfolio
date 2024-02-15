@@ -12,15 +12,14 @@
 }
 
 .container:hover {
-  color:#000;
 
   .skill {
-    background: var(--color-neutral-darker);
+    /*background: var(--color-neutral-darker);*/
   }
 
   .content {
-    background: var(--color-pop-1);
-    color: #000;
+    /*background: var(--color-neutral-light);*/
+    background: #161616;
   }
 
   .image {
@@ -29,7 +28,7 @@
 
   .link {
     color: var(--color-text-light);
-    background: var(--color-pop-3);
+    background: var(--color-pop-2);
 }
 }
 
@@ -56,7 +55,6 @@
 .title {
   font-size: 24px;
   font-weight: 700;
-  color: var(--color-pop-2);
 }
 
 .description {
@@ -99,6 +97,6 @@
   font-size: 24px;
   font-weight: 600;
   border-radius: 10px;
-  background: var(--color-pop-2);
+  background: var(--color-neutral-darker);
   padding: 11px 22px;
 }
