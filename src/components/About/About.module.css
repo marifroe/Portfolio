@@ -123,3 +123,15 @@
     transform: rotate(0deg);
   }
 }
+
+@media screen and (max-width: 830px) {
+  .box {
+    background: none;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .content {
+    align-items: center;
+  }
+}
