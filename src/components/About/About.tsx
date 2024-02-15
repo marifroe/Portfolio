@@ -1,7 +1,5 @@
 import styles from './About.module.css'
 
-import aboutImg from '../../assets/chair.png'
-
 type AboutProps = {
   title: string
   elements?: {
