@@ -56,7 +56,7 @@ export const ProjectDetails = () => {
                     {
                       (section.mediaType == "img")
                       ?<img src={getImageUrl({ path: section.mediaSrc })} alt={`Preview Image for ${section.title}`} className={styles.sectionImage} />
-                        : <YoutubeVideo embedId={section.mediaSrc} width={853} height={480} />
+                        : <YoutubeVideo embedId={section.mediaSrc} width={853} height={480} style={styles.sectionVideo} />
                     }
                     <div className={styles.sectionText}>
                         {section.text}

@@ -73,6 +73,12 @@
   object-fit: cover;
 }
 
+.sectionVideo {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  height: 100%;
+}
+
 .sectionText {
   width: 45%;
 }
@@ -84,6 +90,7 @@
   .sectionImage {
     width: 100%;
   }
+
   .sectionText {
     width: 100%;
   }

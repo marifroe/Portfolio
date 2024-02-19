@@ -6,6 +6,7 @@ type YoutubeProps = {
   embedId: string
   width: number
   height: number
+  style: string
 }
 
 export const getImageUrl = (props: GetUrlProps) => {
@@ -22,6 +23,7 @@ export const YoutubeVideo = (props: YoutubeProps) => {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Embedded youtube"
+      className={props.style}
     />
   </div>
 }
