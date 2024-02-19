@@ -50,3 +50,10 @@
   background: var(--color-pop-1);
   z-index: -1;
 }
+
+@media screen and (max-width: 830px) {
+  .content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

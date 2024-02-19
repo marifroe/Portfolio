@@ -155,6 +155,11 @@
     background: none;
     margin-left: 10px;
     margin-right: 10px;
+
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border: none;
   }
 
   .content {
