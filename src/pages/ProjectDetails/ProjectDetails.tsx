@@ -13,7 +13,7 @@ export const ProjectDetails = () => {
   const project = projects?.find(project => project.details == params.projectId)
   
   return (
-    <div className={styles.container}>
+    <div>
       {project
         ?
         <div className={styles.container}>
@@ -22,7 +22,7 @@ export const ProjectDetails = () => {
             hash: '#projects'
           }} className={styles.link}>Back</Link>
           {/*<a href={`/#projects`} className={styles.link}> Back </a>*/}
-          <h1 className={styles.title}>{project.title}</h1>
+          <h2 className={styles.title}>{project.title}</h2>
           <div className={styles.generalContainer}>
             <div className={styles.generalElement}>
               <h3>Description</h3>

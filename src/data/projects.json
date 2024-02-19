@@ -2,7 +2,7 @@
   {
     "title": "Human Tour Guides for Mixed Reality: A Comparison of Capture and Display Techniques",
     "imageSrc": "projects/guides.png",
-    "description": "Virtual environments can be complex and overwhelming. In addition, when wearing a bulky head-mounted display one easily feels isolated from the real world. \n For my Master's thesis I investigated how humanoid embodied tour guides could be created to accompany and guide users in a Mixed Reality environment. Working with UE4 and Meta's Quest Pro, I created a Mixed Reality art gallery prototype. I used the prototype as context to test three different representations of guides with varying degrees of visual realism. To simplify the creation process I looked at ways of recording real tour guides to transfer their behavioral realism onto the virtual guides. For example, I explored the Quest's body and face tracking to animate a MetaHuman. Through user testing, I then compared the representations towards Social Presence and overall user acceptance.",
+    "description": "Virtual environments can be complex and overwhelming. In addition, when wearing a bulky head-mounted display one easily feels isolated from the real world. \n For my Master's thesis I investigated how humanoid embodied tour guides could be created to accompany and guide users in a Mixed Reality environment.",
     "skills": [
       "Unreal Engine",
       "Meta Quest",
@@ -11,20 +11,71 @@
     ],
     "task": "",
     "context": "Masters Thesis at TU Dresden towards M.Sc. Computer Science and Media",
-    "contribution": "",
+    "contribution": "all",
     "details": "humantourguides",
     "detailsSections": [
       {
-        "title": "Representations of Guides",
-        "text": "I did user tests to compare the guides towards social aspects and user satisfaction. I therefore combined subjective and objective measures.",
+        "title": "Introduction",
+        "text": "Working with UE4 and Meta's Quest Pro, I created a Mixed Reality art gallery prototype. I used the prototype as context to test three different representations of guides with varying degrees of visual realism. To simplify the creation process I looked at ways of recording real tour guides to transfer their behavioral realism onto the virtual guides. For example, I explored the Quest's body and face tracking to animate a MetaHuman. Through user testing, I then compared the representations towards Social Presence and overall user acceptance.",
         "mediaSrc": "projects/guides.png",
-        "mediaType": "img"
+        "mediaType": "img",
+        "layout": 1
+      },
+      {
+        "title": "Background and Aims",
+        "text": "Virtual environments can be complex and overwhelming. In addition, when wearing a bulky head-mounted display one easily feels isolated from the real world. For my Master's thesis I investigated how humanoid embodied tour guides could be created to accompany and guide users in a Mixed Reality environment. Furthermore, I was interested in how the guide could efficiently explain content by applying Joint Attention Mechanisms such as Pointing and Gaze direction supported by verbal terms. I aimed to increase Social Presence to provide a trustworthy company, mental support and increase the level of comfort.",
+        "mediaSrc": "projects/humantourguides/aims.png",
+        "mediaType": "img",
+        "layout": 1
+      },
+      {
+        "title": "The Guide's Characteristics",
+        "text": "State-of-the-Art guidance varies in terms of visual realism, level of embodiment and how they integrate into the immersive environment (Spatial Accuracy). While I explicitly sought to compare different levels of visual realism, the characteristics of the representations I compared cover all degrees for each characteristic trait.",
+        "mediaSrc": "projects/humantourguides/characteristics.png",
+        "mediaType": "img",
+        "layout": 1
+      },
+      {
+        "title": "Recording Techniques",
+        "text": "As I ended up comparing one video based guide and two synthetic guides I needed different approaches for recording.",
+        "mediaSrc": "projects/humantourguides/recordingtechniques.png",
+        "mediaType": "img",
+        "layout": 1
+      },
+      {
+        "title": "Recording the Video Guide",
+        "text": "For the video guide I recorded a video using an iPad. The position of the iPad was tracked throughout the video recording to derivate the guide's position in space.",
+        "mediaSrc": "projects/humantourguides/stepsvideorecording.png",
+        "mediaType": "img",
+        "layout": 1
+      },
+      {
+        "title": "Recording the Synthetic Guides",
+        "text": "I explored different techniques to extract motion data from a single view image. They did not suffice to simultaneously track position in space, accurate hand gestures and facial expressions. I ended up using the Quest Pro's motion tracking capabilities to record hands, face and position of the guide.",
+        "mediaSrc": "PphSfkBe85A",
+        "mediaType": "vid",
+        "layout": 1
+      },
+      {
+        "title": "MR Prototype",
+        "text": "The MR Prototype I developed has two different modes: An admin Mode for recording a guided tour and a visitor mode to participate in a guided tour.",
+        "mediaSrc": "projects/humantourguides/appmodes.png",
+        "mediaType": "img",
+        "layout": 1
       },
       {
         "title": "Interaction",
         "text": "I provided the user with a personal menu. Whenever a hand is rotated towards the face with all fingers stretched, the menu appears. This gesture is more comfortable and reliable than a 'looking-at-a-watch' gesture. The user does then interact with the menu by tapping the buttons.",
         "mediaSrc": "projects/guidesmenu.png",
-        "mediaType": "img"
+        "mediaType": "img",
+        "layout": 1
+      },
+      {
+        "title": "User Testing",
+        "text": "I ran user tests to compare the guides. The graphic shows the testing procedure consisting of 3 steps.",
+        "mediaSrc": "projects/humantourguides/usertests.png",
+        "mediaType": "img",
+        "layout": 1
       }
     ],
     "source": ""
@@ -49,7 +100,8 @@
         "title": "SMOKE Video",
         "text": "I created this video using Adobe Illustrator, Adobe After Effects and Adobe Premiere Pro.",
         "mediaSrc": "6NvgkwtNZEk",
-        "mediaType": "vid"
+        "mediaType": "vid",
+        "layout": 1
       }
     ],
     "source": ""
@@ -78,25 +130,29 @@
         "title": "Claims Analysis",
         "text": "We did a claims analysis as basis for design decisions.",
         "mediaSrc": "projects/trafficstreamclaimspersp.png",
-        "mediaType": "img"
+        "mediaType": "img",
+        "layout": 1
       },
       {
         "title": "Visual Design",
         "text": "We used Figma to create a visual design concept.",
         "mediaSrc": "projects/trafficstreamdesignprocess.png",
-        "mediaType": "img"
+        "mediaType": "img",
+        "layout": 1
       },
       {
         "title": "Interaction Design",
         "text": "We aimed for an intuitive interaction to select multiple waiting points and group them to a street crossing. We evaluated different approaches towards usability, intuitiveness and implementation.",
         "mediaSrc": "projects/trafficstreaminteractiondesign.png",
-        "mediaType": "img"
+        "mediaType": "img",
+        "layout": 1
       },
       {
         "title": "Overview, Zoom and Filter, Details on Demand",
         "text": "We followed Shneiderman's visualization mantra \"Overview first, zoom and filter, details on demand\".",
         "mediaSrc": "projects/trafficstreamcrossing.png",
-        "mediaType": "img"
+        "mediaType": "img",
+        "layout": 1
       }
     ],
     "source": ""
@@ -119,7 +175,8 @@
         "title": "",
         "text": "",
         "mediaSrc": "",
-        "mediaType": ""
+        "mediaType": "",
+        "layout": 1
       }
     ],
     "source": ""
@@ -144,7 +201,8 @@
         "title": "",
         "text": "",
         "mediaSrc": "PphSfkBe85A",
-        "mediaType": "vid"
+        "mediaType": "vid",
+        "layout": 1
       }
     ],
     "source": ""
@@ -168,7 +226,8 @@
         "title": "Animation with Maya",
         "text": "",
         "mediaSrc": "JFvHMj6h5lE",
-        "mediaType": "vid"
+        "mediaType": "vid",
+        "layout": 1
       }
     ],
     "source": ""
@@ -193,25 +252,29 @@
         "title": "Brainstorming",
         "text": "We started off with brainstorming to come up with first visions and ideas. Based off of a collection of factors which make up a healthy lifestyle we decided on the reduction of stress. We thought of situations in which we are usually stressed and running back and forth in an overcrowded supermarket to find all items is definitely one of them",
         "mediaSrc": "projects/shopknobbrainstorming.png",
-        "mediaType": "img"
+        "mediaType": "img",
+        "layout": 1
       },
       {
         "title": "Analysis Phase",
         "text": "The analysis phase consisted of field studies, interviews, stakeholderdiagram, definition of personas and a hierarchical task analysis (see fig.).",
         "mediaSrc": "projects/shopknobhta.png",
-        "mediaType": "img"
+        "mediaType": "img",
+        "layout": 1
       },
       {
         "title": "Design Phase",
         "text": "The design phase comprised Activity Design, Information Design and Interaction Design. For each design phase we summed up the features to rate them towards future implementation. The design phases led us to a storyboard and a paper prototype. \n We listed problem scenarios and transformed them into activity scenarios to get an idea of how the personas would address their problems as of now. We then put together claims to rate the key features of the activity design. Next, based on the activity design, we listed information design scenarios to find ways to support the activities. Again, a table of claims helped us to rate the information design features.",
         "mediaSrc": "projects/shopknobstoryboard.png",
-        "mediaType": "img"
+        "mediaType": "img",
+        "layout": 1
       },
       {
         "title": "User Testing",
         "text": "We ran user tests to find out how our prototype performs. The subjects had to complete a set of tasks and were asked to \"think out loud\" and answer a questionnaire.",
         "mediaSrc": "projects/shopknobprototype.png",
-        "mediaType": "img"
+        "mediaType": "img",
+        "layout": 1
       }
     ],
     "source": ""
@@ -234,7 +297,8 @@
         "title": "Paper Prototype",
         "text": "",
         "mediaSrc": "TYa5sqLn8bg",
-        "mediaType": "vid"
+        "mediaType": "vid",
+        "layout": 1
       }
     ],
     "source": ""
@@ -256,7 +320,8 @@
         "title": "",
         "text": "",
         "mediaSrc": "",
-        "mediaType": ""
+        "mediaType": "",
+        "layout": 1
       }
     ],
     "source": ""
@@ -277,7 +342,8 @@
         "title": "",
         "text": "",
         "mediaSrc": "",
-        "mediaType": ""
+        "mediaType": "",
+        "layout": 1
       }
     ],
     "source": ""
@@ -299,7 +365,8 @@
         "title": "",
         "text": "",
         "mediaSrc": "",
-        "mediaType": ""
+        "mediaType": "",
+        "layout": 1
       }
     ],
     "source": ""
@@ -322,7 +389,8 @@
         "title": "Design in Figma",
         "text": "I'm always open for fun and so should my Portfolio be. I aimed for a design that represents my creative, open-minded and joyful personality. Wow, I find it always weird to describe myself. However. Abstract dynamic elements spread joy and playfulness. The color scheme underlays this concept.",
         "mediaSrc": "projects/portfolio.png",
-        "mediaType": "img"
+        "mediaType": "img",
+        "layout": 1
       }
     ],
     "source": ""

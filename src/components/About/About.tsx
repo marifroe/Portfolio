@@ -29,8 +29,7 @@ export const About = (props: AboutProps) => {
           </p>*/}
           <p>
             <span>A Masters Degree in Computer Science and Media</span> and a Semester Abroad with focus on <span>Visual Communication </span> 
-            provide me with all the Skills to perform successful in a creative and innovative Environment and. My Background in Computer Science helps 
-            me to understand the Possibilities.
+            provide me with all the Skills to perform successful in a creative and innovative Environment.
           </p>
           <p>
             Within a Team is where I work best - to share and discuss Ideas and to get different Perspectives. Being an empathic Teamplayer, I at the same time
