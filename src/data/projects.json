@@ -9,7 +9,7 @@
       "XR",
       "Motion Capture"
     ],
-    "task": "",
+    "year": "2023",
     "context": "Masters Thesis at TU Dresden towards M.Sc. Computer Science and Media",
     "contribution": "all",
     "details": "humantourguides",
@@ -26,7 +26,7 @@
         "text": "Virtual environments can be complex and overwhelming. In addition, when wearing a bulky head-mounted display one easily feels isolated from the real world. For my Master's thesis I investigated how humanoid embodied tour guides could be created to accompany and guide users in a Mixed Reality environment. Furthermore, I was interested in how the guide could efficiently explain content by applying Joint Attention Mechanisms such as Pointing and Gaze direction supported by verbal terms. I aimed to increase Social Presence to provide a trustworthy company, mental support and increase the level of comfort.",
         "mediaSrc": "projects/humantourguides/aims.png",
         "mediaType": "img",
-        "layout": 1
+        "layout": 2
       },
       {
         "title": "The Guide's Characteristics",
@@ -40,7 +40,7 @@
         "text": "As I ended up comparing one video based guide and two synthetic guides I needed different approaches for recording.",
         "mediaSrc": "projects/humantourguides/recordingtechniques.png",
         "mediaType": "img",
-        "layout": 1
+        "layout": 2
       },
       {
         "title": "Recording the Video Guide",
@@ -54,10 +54,10 @@
         "text": "I explored different techniques to extract motion data from a single view image. They did not suffice to simultaneously track position in space, accurate hand gestures and facial expressions. I ended up using the Quest Pro's motion tracking capabilities to record hands, face and position of the guide.",
         "mediaSrc": "PphSfkBe85A",
         "mediaType": "vid",
-        "layout": 1
+        "layout": 2
       },
       {
-        "title": "MR Prototype",
+        "title": "Mixed Reality Prototype",
         "text": "The MR Prototype I developed has two different modes: An admin Mode for recording a guided tour and a visitor mode to participate in a guided tour.",
         "mediaSrc": "projects/humantourguides/appmodes.png",
         "mediaType": "img",
@@ -68,7 +68,7 @@
         "text": "I provided the user with a personal menu. Whenever a hand is rotated towards the face with all fingers stretched, the menu appears. This gesture is more comfortable and reliable than a 'looking-at-a-watch' gesture. The user does then interact with the menu by tapping the buttons.",
         "mediaSrc": "projects/guidesmenu.png",
         "mediaType": "img",
-        "layout": 1
+        "layout": 2
       },
       {
         "title": "User Testing",
@@ -91,7 +91,7 @@
       "Adobe Illustrator",
       "Teamwork"
     ],
-    "task": "",
+    "year": "",
     "context": "Group Project for Course Software as a Business",
     "contribution": "",
     "details": "inpen",
@@ -121,7 +121,7 @@
       "Data Visualization",
       "Figma"
     ],
-    "task": "Substitute existing Prototype to improve Usability",
+    "year": "Substitute existing Prototype to improve Usability",
     "context": "Group Project for Course Mobile and Ubiquituous Computing; Group of 2",
     "contribution": "Equal distribution of Tasks.",
     "details": "trafficstream",
@@ -166,7 +166,7 @@
       "VR",
       "UX Design"
     ],
-    "task": "",
+    "year": "",
     "context": "",
     "contribution": "",
     "details": "",
@@ -192,7 +192,7 @@
       "Unreal Engine",
       "Meta Quest Pro"
     ],
-    "task": "",
+    "year": "",
     "context": "",
     "contribution": "",
     "details": "facetracking",
@@ -217,7 +217,7 @@
       "Rigging",
       "Storyboard"
     ],
-    "task": "",
+    "year": "",
     "context": "",
     "contribution": "",
     "details": "ballettlesson",
@@ -243,7 +243,7 @@
       "Prototyping",
       "Storyboard"
     ],
-    "task": "Develop prototype to support a healthier lifestyle.",
+    "year": "Develop prototype to support a healthier lifestyle.",
     "context": "University Project for the course User Interface Engineering; Group Size: 4",
     "contribution": "contribution to all phases",
     "details": "shopknob",
@@ -288,7 +288,7 @@
       "UX Design",
       "Interface Design"
     ],
-    "task": "",
+    "year": "",
     "context": "University Project; Group Size: 2",
     "contribution": "",
     "details": "woodenspoon",
@@ -311,7 +311,7 @@
       "Modelling",
       "Maya"
     ],
-    "task": "",
+    "year": "",
     "context": "",
     "contribution": "",
     "details": "",
@@ -333,7 +333,7 @@
     "skills": [
       "C++"
     ],
-    "task": "",
+    "year": "",
     "context": "",
     "contribution": "",
     "details": "",
@@ -356,7 +356,7 @@
       "Photoshop",
       "Layout"
     ],
-    "task": "Redesign existing Homepage using given content. Pay attention to layout guidelines.",
+    "year": "Redesign existing Homepage using given content. Pay attention to layout guidelines.",
     "context": "Project for Bachelor",
     "contribution": "all",
     "details": "",
@@ -380,7 +380,7 @@
       "Typescript",
       "React"
     ],
-    "task": "Design a responsive portfolio in less than a week.",
+    "year": "Design a responsive portfolio in less than a week.",
     "context": "Personal",
     "contribution": "all",
     "details": "portfolio",
