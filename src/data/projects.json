@@ -303,15 +303,57 @@
         "title": "Background",
         "text": "We have a Smart Home at home which isn't as smart as it could be. We have window sensors which are potentially be able to send a signal to the heating thermostats and tell them to switch off when the window is open. But the communication is very unreliable. Moreover, at the moment they make regulating the temperature rather more complicated than easier. We have a dolby surround system which can connect an additional speaker in the kitchen area. However, they always need to be manually connected and disconnected when switch between listening to music and watching TV. We have lighting which can only be fully controlled via a smart phone app. In summary, our smart home relies on a variety of apps and is inaccessible for visitors.",
         "mediaSrc": "",
-        "mediaType": "none",
+        "mediaType": "",
         "layout": 1
       },
       {
         "title": "Stakeholders",
         "text": "",
         "mediaSrc": "",
-        "mediaType": "none",
+        "mediaType": "",
+        "layout": 2
+      },
+      {
+        "title": "Seth",
+        "text": "30 years   |   lives with girlfriend and toddler in city apartment   |   loves technology   |   works full-time\n\nSeth lives in a city apartment together with his girlfriend and toddler. He loves technology and sets up a smart home to control heating, lighting, sound system and watering the plants on the balcony. As he works full-time, he has set up the heating to follow a schedule and automatically turn off for when no one is at home and turn back on for when everyone gets home. For when he’s sick at home or works remotely, he has set up a separate schedule which can be switched to via a smartphone app. More fine-grained adjustments need to be tediously done via a browser app. Some heating thermostats have a child lock as his toddler loves to push buttons, so they can be exclusively adjusted via a smart phone app. \nIn addition, Seth has set up a 5.1 sound system and an extra speaker in the kitchen. When he listens to music via Spotify, he manually connects the extra speaker for the music to play in the living room and the kitchen simultaneously. When he wants to watch TV, he has to disconnect the speaker via the sound systems (Onkyo) smartphone app. Plus, when watching TV he always has to turn up the volume as it’s way too quiet. \nSeth dims the light when watching TV for a cozier atmosphere. The floor lamp has a smart bulb which can be controlled via the FRITZ! Home app. He can adjust brightness and color. The lamp itself does not have a switch. \nThe balcony plants are equipped with small hoses which are connected to the kitchen water tap. When Seth goes on vacation, he can water his plants by remotely controlling the valves. Moreover, he put humidity sensors in the planters to track the water level.\n\n Image Source: https://www.flaticon.com/free-icons/man (Freepik - Flaticon)",
+        "mediaSrc": "projects/smarthome/personas/seth.png",
+        "mediaType": "img",
         "layout": 1
+      },
+      {
+        "title": "Kristin",
+        "text": "59 years   |   kids live far away   |   comfortable with basic interaction with smartphones   |   loves a good TV show\n\nKristins daughter moved to another city after school where she now lives with her own little family. It’s a 7-hour drive to visit, so when she visits her daughter, she usually stays for a few days. Her daughter has a guest room where she stays in. \n The guest rooms heating is controlled via a schedule which is set up to keep the temperature at a low level as the room is usually not regularly occupied. So when Kristin wants to adjust the temperature, she manually has to push a tiny button a couple of times and the thermostats response time is quite low. The temperature is reset at some point as triggered by the schedule.\n When Kristin wants to watch TV while the others are out of the house, it often won’t work. She doesn’t have the Onkyo app on her smartphone to disconnect the kitchen speaker. Even if she did, she wouldn’t remember what to do. \n Furthermore, she cannot adjust the living room heater thermostats as they are locked and she doesn’t have the FRITZ! Home app on her smartphone.\n\nImage Source: https: //www.flaticon.com/free-icons/avatar (Freepik - Flaticon)",
+        "mediaSrc": "projects/smarthome/personas/kristin.png",
+        "mediaType": "img",
+        "layout": 2
+      },
+      {
+        "title": "Granny",
+        "text": "83 years   |   feels uncomfortable with technology   |   is always cold\n\nGranny loves to visit her family. Her grandson has set up this weird smart home thing where they do not have normal thermostats. As she is always cold, she wants to turn on the heating. However, the thermostats cannot simply be rotated, they have tiny buttons and a teeny tiny display which shows the desired temperature. She always needs to ask her grandkids to adjust the temperature.\n\nImage Source: https://www.flaticon.com/free-icons/woman (Freepik - Flaticon)",
+        "mediaSrc": "projects/smarthome/personas/granny.png",
+        "mediaType": "img",
+        "layout": 1
+      },
+      {
+        "title": "Elena",
+        "text": "28 years   |   loves seeing her friends   |   always listens to music, especially less known bands\n\nImage Source: https://www.flaticon.com/free-icons/woman (Freepik - Flaticon)",
+        "mediaSrc": "projects/smarthome/personas/elena.png",
+        "mediaType": "img",
+        "layout": 2
+      },
+      {
+        "title": "Problem Scenarios",
+        "text": "I analysed problem scenarios to use them as base to find activity design features. Where applicable I want to automate processes. Moreover, a light switch metaphor could make sense to control smart home devices. When you enter a room you have to perform only one action right when you enter to controll the devices of the specific room. While it makes sense to provide a simplistic quick access interface for guests, more in-depth control is necessary for the admins. To make watering more fun and increase satisfaction, I want to provide visual feedback of the water fill level.",
+        "mediaSrc": "projects/smarthome/problemscenarios.png",
+        "mediaType": "img",
+        "layout": 2
+      },
+      {
+        "title": "Activity Design",
+        "text": "I then set up claims to evaluate the activity design features.",
+        "mediaSrc": "projects/smarthome/problemscenarios.png",
+        "mediaType": "img",
+        "layout": 2
       }
     ],
     "source": ""

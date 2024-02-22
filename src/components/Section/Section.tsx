@@ -32,6 +32,9 @@ function getLayout(props: SectionProps) {
 }
 
 export const Section = (props: SectionProps) => {
+
+  let parser, doc: Document, links: HTMLAnchorElement[]
+
   let sectionLayout
     switch (props.layout) {
       case 1:
@@ -46,7 +49,13 @@ export const Section = (props: SectionProps) => {
       default:
         sectionLayout = styles.layout1 
         break
-      }
+  }
+  
+  if (props.mediaType == "link") {
+    parser = new DOMParser()
+    doc = parser.parseFromString(props.mediaSrc, 'text/html')
+    links = [...doc.getElementsByTagName('a')]
+  }
 
               /*return (
                 <div key={section.title} className={styles.sectionContainer}>
@@ -64,7 +73,7 @@ export const Section = (props: SectionProps) => {
                 </div>
               )
             }*/
-
+  //let text = JSON.parse(props.text)
 
   return (
     <div className={styles.container}>
@@ -74,10 +83,13 @@ export const Section = (props: SectionProps) => {
             ? <img src={getImageUrl({ path: props.mediaSrc })} alt={`Preview Image for ${props.title}`} className={styles.sectionImage} />
             : (props.mediaType == "vid") && <YoutubeVideo embedId={props.mediaSrc} width={853} height={480} style={styles.sectionVideo} />
         }
-        <div className={styles.sectionText}>
-          <h2 className={styles.sectionTitle}>{props.title}</h2>
-          <p>{props.text}</p>
-        </div>
+        { props.text 
+          ? <div className={styles.sectionText}>
+              <h2 className={styles.sectionTitle}>{props.title}</h2>
+              <p>{props.text}</p>
+            </div>
+          : <h2 className={styles.sectionTitle}>{props.title}</h2>
+        }
       </div>
     </div>
   )

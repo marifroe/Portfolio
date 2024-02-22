@@ -36,7 +36,8 @@
 
 .sectionImage {
   width: 45%;
-  object-fit: cover;
+  object-fit: contain;
+  max-height: 400px;
 }
 
 .sectionVideo {
@@ -48,6 +49,7 @@
 .sectionText {
   width: 45%;
   text-align: justify;
+  white-space: pre-line
 }
 
 @media screen and (max-width: 830px) {
