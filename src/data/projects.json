@@ -116,14 +116,16 @@
       "Docker",
       "deck.gl",
       "mapbox",
+      "node.js",
+      "express",
       "UX Design",
       "UI Design",
       "Data Visualization",
       "Figma"
     ],
-    "year": "Substitute existing Prototype to improve Usability",
-    "context": "Group Project for Course Mobile and Ubiquituous Computing; Group of 2",
-    "contribution": "Equal distribution of Tasks.",
+    "year": "2020",
+    "context": "Group project for course Mobile and Ubiquituous Computing; group of 2",
+    "contribution": "Equal distribution of tasks",
     "details": "trafficstream",
     "detailsSections": [
       {
@@ -138,7 +140,7 @@
         "text": "We used Figma to create a visual design concept.",
         "mediaSrc": "projects/trafficstreamdesignprocess.png",
         "mediaType": "img",
-        "layout": 1
+        "layout": 2
       },
       {
         "title": "Interaction Design",
@@ -152,7 +154,7 @@
         "text": "We followed Shneiderman's visualization mantra \"Overview first, zoom and filter, details on demand\".",
         "mediaSrc": "projects/trafficstreamcrossing.png",
         "mediaType": "img",
-        "layout": 1
+        "layout": 2
       }
     ],
     "source": ""
@@ -243,8 +245,8 @@
       "Prototyping",
       "Storyboard"
     ],
-    "year": "Develop prototype to support a healthier lifestyle.",
-    "context": "University Project for the course User Interface Engineering; Group Size: 4",
+    "year": "2018",
+    "context": "University project for the course User Interface Engineering; group size: 4",
     "contribution": "contribution to all phases",
     "details": "shopknob",
     "detailsSections": [
@@ -260,7 +262,7 @@
         "text": "The analysis phase consisted of field studies, interviews, stakeholderdiagram, definition of personas and a hierarchical task analysis (see fig.).",
         "mediaSrc": "projects/shopknobhta.png",
         "mediaType": "img",
-        "layout": 1
+        "layout": 2
       },
       {
         "title": "Design Phase",
@@ -274,9 +276,29 @@
         "text": "We ran user tests to find out how our prototype performs. The subjects had to complete a set of tasks and were asked to \"think out loud\" and answer a questionnaire.",
         "mediaSrc": "projects/shopknobprototype.png",
         "mediaType": "img",
-        "layout": 1
+        "layout": 2
       }
     ],
+    "source": ""
+  },
+  {
+    "title": "Smart Home",
+    "imageSrc": "",
+    "description": "Setting up a Smart Home to control heating, lighting and multimedia.",
+    "skills": [
+      "UX Design",
+      "System Architecture",
+      "ioBroker",
+      "Stakeholder Analysis",
+      "node.js",
+      "TypeScript",
+      "mqtt"
+    ],
+    "year": "2024",
+    "context": "Personal",
+    "contribution": "all",
+    "details": "",
+    "detailsSections": [],
     "source": ""
   },
   {
@@ -377,10 +399,11 @@
     "description": "Design and implementation of my portfolio. Work in progress.",
     "skills": [
       "Figma",
-      "Typescript",
-      "React"
+      "TypeScript",
+      "React",
+      "CSS"
     ],
-    "year": "Design a responsive portfolio in less than a week.",
+    "year": "2024",
     "context": "Personal",
     "contribution": "all",
     "details": "portfolio",
@@ -391,6 +414,68 @@
         "mediaSrc": "projects/portfolio.png",
         "mediaType": "img",
         "layout": 1
+      }
+    ],
+    "source": ""
+  },
+  {
+    "title": "Train Together",
+    "imageSrc": "projects/traintogether/prototyp_aussen.jpg",
+    "description": "Within 2 weeks, we worked full-time to implement a prototype system to do physical exercises together. The prototype enables the user to ask others to joint a training session via pressing a button. The matrix then displays an execise. LEDs indicate when the exercise starts and ends.",
+    "skills": [
+      "Arduino",
+      "Breadboard",
+      "Physical Computing",
+      "Prototyping",
+      "Fusion 360",
+      "Fritzing"
+    ],
+    "year": "2020",
+    "context": "University project for the course Physical Computing; group of 3",
+    "contribution": "brainstorming + development of one of three prototypes",
+    "details": "traintogether",
+    "detailsSections": [
+      {
+        "title": "Background",
+        "text": "As due to Covid we were stuck at home, we decided to implement a prototype system to do physical exercises together. In a group of three, each team member created a physical prototype based on an Arduino. The prototypes communicate with each other to provide a way to invite others for syncronized exercising and to suggest an exercise. The button is used to start an exercise session, the display shows an animation of the exercise.",
+        "mediaSrc": "projects/traintogether/prototyp_aussen.jpg",
+        "mediaType": "img",
+        "layout": 1
+      },
+      {
+        "title": "Materials",
+        "text": "We were randomly given a set of components to work with for building our prototype. I had a 8x8 LED Matrix, 3 LEDs and a Photoresistor to work with. I used the photoresistor for going online (when you are up for a training session) and offline (to mute the device when you do not want to exercise). Therefore, you have to take off the head. The LEDs indicate the state with yellow for receiving a training request, green when an exercise is running and red when the exercise is over. Multiple buttons allow to select a body region you want to train. An exercise is randomly suggested under consideration of the chosen body part.",
+        "mediaSrc": "projects/traintogether/grundmaterialien.jpg",
+        "mediaType": "img",
+        "layout": 2
+      },
+      {
+        "title": "Breadboard Setup with Fritzing",
+        "text": "",
+        "mediaSrc": "projects/traintogether/steckplatine.png",
+        "mediaType": "img",
+        "layout": 1
+      },
+      {
+        "title": "Breadboard",
+        "text": "",
+        "mediaSrc": "projects/traintogether/breadboard_setup.jpg",
+        "mediaType": "img",
+        "layout": 2
+      },
+      {
+        "title": "3D model with Fusion",
+        "text": "I designed a 3D Model for the prototype using Fusion 360. The model incorporates the 8x8 matrix, the buttons for the selection of exercises and the LEDs to indicate the state. The head can be taken off to cover (unmute) or uncover (mute) the photoresistor.",
+        "mediaSrc": "projects/traintogether/render.png",
+        "mediaType": "img",
+        "layout": 1
+      },
+      {
+        "title": "Communication",
+        "text": "In order to enable an exchange between the devices, they connect to the local WLAN and communicate via a shared server using web sockets. For this purpose, a JSON message format was defined to establish a session, respond to a session request and receive an exercise. The prototype switches states based on those requests.",
+        "mediaSrc": "projects/traintogether/states.png",
+        "mediaType": "img",
+        "layout": 2
       }
     ],
     "source": ""
