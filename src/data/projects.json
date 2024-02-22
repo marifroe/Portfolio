@@ -295,10 +295,25 @@
       "mqtt"
     ],
     "year": "2024",
-    "context": "Personal",
-    "contribution": "all",
-    "details": "",
-    "detailsSections": [],
+    "context": "personal",
+    "contribution": "development, UX Design",
+    "details": "smarthome",
+    "detailsSections": [
+      {
+        "title": "Background",
+        "text": "We have a Smart Home at home which isn't as smart as it could be. We have window sensors which are potentially be able to send a signal to the heating thermostats and tell them to switch off when the window is open. But the communication is very unreliable. Moreover, at the moment they make regulating the temperature rather more complicated than easier. We have a dolby surround system which can connect an additional speaker in the kitchen area. However, they always need to be manually connected and disconnected when switch between listening to music and watching TV. We have lighting which can only be fully controlled via a smart phone app. In summary, our smart home relies on a variety of apps and is inaccessible for visitors.",
+        "mediaSrc": "",
+        "mediaType": "none",
+        "layout": 1
+      },
+      {
+        "title": "Stakeholders",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": "none",
+        "layout": 1
+      }
+    ],
     "source": ""
   },
   {

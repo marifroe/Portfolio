@@ -1,7 +1,7 @@
 import styles from './ProjectDetails.module.css'
 import { Link, useParams } from "react-router-dom"
 import projects from '../../data/projects.json'
-import { getImageUrl, YoutubeVideo } from '../../utils'
+import { Section } from '../../components/Section/Section'
 
 
 type ProjectParams = {
@@ -58,42 +58,15 @@ export const ProjectDetails = () => {
             </div>
           </div>
           <div className={styles.sections}>
-          {
-            project?.detailsSections.map(section => {
-
-              let sectionLayout
-
-              switch (section.layout) {
-                case 1:
-                  sectionLayout = styles.layout1
-                  break
-                case 2:
-                  sectionLayout = styles.layout2 
-                  break
-                case 3: 
-                  sectionLayout = styles.layout3 
-                  break
-                default:
-                  sectionLayout = styles.layout1 
-                  break
-              }
-
-              return (
-                <div key={section.title} className={styles.sectionContainer}>
-                  <div className={sectionLayout}>
-                    {
-                      (section.mediaType == "img")
-                      ?<img src={getImageUrl({ path: section.mediaSrc })} alt={`Preview Image for ${section.title}`} className={styles.sectionImage} />
-                        : <YoutubeVideo embedId={section.mediaSrc} width={853} height={480} style={styles.sectionVideo} />
-                    }
-                    <div className={styles.sectionText}>
-                      <h2 className={styles.sectionTitle}>{section.title}</h2>
-                        {section.text}
-                    </div>
-                  </div>
-                </div>
-              )
-            })
+            {
+              project?.detailsSections.map(section => {
+                return <Section
+                  title={section.title}
+                  text={section.text}
+                  mediaSrc={section.mediaSrc}
+                  mediaType={section.mediaType as ("img" | "vid" | "none")}
+                  layout={section.layout as (1 | 2 | 3)} />
+              })
             }
           </div>  
         </div>
