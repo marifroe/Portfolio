@@ -336,9 +336,16 @@
       },
       {
         "title": "Elena",
-        "text": "28 years   |   loves seeing her friends   |   always listens to music, especially less known bands\n\nImage Source: https://www.flaticon.com/free-icons/woman (Freepik - Flaticon)",
+        "text": "28 years   |   loves seeing her friends   |   always listens to music, especially less known bands\n\nElena wants to share this cool new band with Seth. She looks for her playlist on Spotify and sends Seth a link that he can play the music via his sound system. Seth has to connect the speaker first before they can start listening to the band. It would be so much easier if Elena could just connect her Spotify directly to Seths speakers. \n\nImage Source: https://www.flaticon.com/free-icons/woman (Freepik - Flaticon)",
         "mediaSrc": "projects/smarthome/personas/elena.png",
         "mediaType": "img",
+        "layout": 2
+      },
+      {
+        "title": "Design",
+        "text": "",
+        "mediaSrc": "",
+        "mediaType": "",
         "layout": 2
       },
       {
@@ -352,7 +359,21 @@
         "title": "Activity Design",
         "text": "I then set up claims to evaluate the activity design features.",
         "mediaSrc": "projects/smarthome/problemscenarios.png",
-        "mediaType": "img",
+        "mediaType": "",
+        "layout": 2
+      },
+      {
+        "title": "Information Design",
+        "text": "",
+        "mediaSrc": "projects/smarthome/problemscenarios.png",
+        "mediaType": "",
+        "layout": 2
+      },
+      {
+        "title": "Interaction Design",
+        "text": "",
+        "mediaSrc": "projects/smarthome/problemscenarios.png",
+        "mediaType": "",
         "layout": 2
       }
     ],
@@ -458,7 +479,8 @@
       "Figma",
       "TypeScript",
       "React",
-      "CSS"
+      "CSS",
+      "Git"
     ],
     "year": "2024",
     "context": "Personal",
@@ -469,6 +491,13 @@
         "title": "Design in Figma",
         "text": "I'm always open for fun and so should my Portfolio be. I aimed for a design that represents my creative, open-minded and joyful personality. Wow, I find it always weird to describe myself. However. Abstract dynamic elements spread joy and playfulness. The color scheme underlays this concept.",
         "mediaSrc": "projects/portfolio.png",
+        "mediaType": "img",
+        "layout": 1
+      },
+      {
+        "title": "Content Structure",
+        "text": "The project data is dynamically retrieved from a json file. This makes it easy to add new projects to the portfolio. At a later point, it is planend to add filter functionality based on the skill set of the project.",
+        "mediaSrc": "",
         "mediaType": "img",
         "layout": 1
       }

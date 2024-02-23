@@ -10,7 +10,7 @@ type SectionProps = {
   layout: 1 | 2 | 3
 }
 
-function getMediaComponent(mediaSrc: string, mediaType: "img" | "vid") {
+/*function getMediaComponent(mediaSrc: string, mediaType: "img" | "vid") {
   switch (mediaType) {
     case "img":
       return <img src={getImageUrl({ path: mediaSrc })} alt={`Preview Image for ${mediaSrc}`} className={styles.sectionImage} />
@@ -29,7 +29,7 @@ function getLayout(props: SectionProps) {
     default:
       break;
   }
-}
+}*/
 
 export const Section = (props: SectionProps) => {
 
