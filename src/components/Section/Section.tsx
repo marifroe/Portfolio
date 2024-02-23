@@ -33,8 +33,6 @@ function getLayout(props: SectionProps) {
 
 export const Section = (props: SectionProps) => {
 
-  let parser, doc: Document, links: HTMLAnchorElement[]
-
   let sectionLayout
     switch (props.layout) {
       case 1:
@@ -50,12 +48,7 @@ export const Section = (props: SectionProps) => {
         sectionLayout = styles.layout1 
         break
   }
-  
-  if (props.mediaType == "link") {
-    parser = new DOMParser()
-    doc = parser.parseFromString(props.mediaSrc, 'text/html')
-    links = [...doc.getElementsByTagName('a')]
-  }
+
 
               /*return (
                 <div key={section.title} className={styles.sectionContainer}>
