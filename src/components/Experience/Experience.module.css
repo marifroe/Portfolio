@@ -122,7 +122,7 @@
 .experience {
   width: 70%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 20px;
 }
 

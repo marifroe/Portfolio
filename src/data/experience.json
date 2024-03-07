@@ -5,7 +5,7 @@
     "company": "SAP",
     "startDate": "Mar, 2017",
     "endDate": "Aug, 2017",
-    "description": "As a member of a multinational project team, I independently developed a native iOS app using Swift. Having no prior knowledge with Swift nor native app development, I quickly and independently learned how to implement authentication, connect to a RestAPI, and read iPhone sensor data. i also gained insight into the design process and was able to actively contribute. thanks to my structured way of working, i was able to meet milestones and report progress to the project manager in regular meetings.",
+    "description": "As a member of a multinational project team, I independently developed a native iOS app using Swift. Having no prior knowledge with Swift nor native app development, I quickly and independently learned how to implement authentication, connect to a RestAPI, and read iPhone sensor data. I also gained insight into the design process and was able to actively contribute. Thanks to my structured way of working, I was able to meet milestones and report progress to the project manager in regular meetings.",
     "experiences": [
       "Swift",
       "UX Design"
@@ -16,9 +16,9 @@
     "role": "iOS App Developer",
     "level": "Working Student",
     "company": "SAP",
-    "startDate": "Mar, 2017",
-    "endDate": "Aug, 2017",
-    "description": "",
+    "startDate": "Sep, 2017",
+    "endDate": "Aug, 2018",
+    "description": "I independently worked on existing native iOS applications to implement new features.",
     "experiences": [
       "Swift",
       "placeholder"
@@ -29,8 +29,8 @@
     "role": "Full Stack Developer",
     "level": "Working Student",
     "company": "SAP",
-    "startDate": "Mar, 2017",
-    "endDate": "Aug, 2017",
+    "startDate": "Nov, 2018",
+    "endDate": "Feb, 2020",
     "description": "",
     "experiences": [
       "Java",
@@ -42,8 +42,8 @@
     "role": "Unreal Engine Developer",
     "level": "Working Student",
     "company": "SAP",
-    "startDate": "Mar, 2017",
-    "endDate": "Aug, 2017",
+    "startDate": "Mar, 2020",
+    "endDate": "Dec, 2023",
     "description": "",
     "experiences": [
       "Unreal Engine 4 + 5",
