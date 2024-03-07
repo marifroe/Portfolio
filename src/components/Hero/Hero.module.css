@@ -69,6 +69,11 @@
   filter: opacity(.9) drop-shadow(0 0 0 var(--color-primary));
 }
 
+.unhighlight {
+  color: var(--color-neutral-medium);
+  font-size: 16px;
+}
+
 @keyframes swinging {
   0% {
     transform-origin: 50% 0;
