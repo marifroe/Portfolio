@@ -1,6 +1,6 @@
 import styles from './Experience.module.css'
 import skills from '../../data/skills.json'
-/*import workingExperience from '../../data/experience.json'*/
+import workingExperience from '../../data/experience.json'
 import { getImageUrl } from '../../utils'
 
 type ExperienceProps = {
@@ -21,22 +21,24 @@ export const Experience = (props: ExperienceProps) => {
               <div className={styles.skill} key={id}>
                 <div className={styles.skillImageContainer}>
                   <img src={getImageUrl({ path: imageSrc })} alt={skill.title} />
+                  <p className={styles.skillName}>{skill.title}</p>
                 </div>
-                <p>{skill.title}</p>
+                {/*<p>{skill.title}</p>*/}
               </div>
             )
           })}   
         </div>
-        {/*<ul className={styles.experience}>
+        <ul className={styles.experience}>
           {workingExperience.map((step, id) => {
             const imageSrc = step.imageSrc
             return (
               <li className={styles.experienceItem} key={id}>
-                <img src={getImageUrl({ path: imageSrc })} alt={`${step.company} Logo`} />
+                <img src={getImageUrl({ path: imageSrc })} alt={`${step.company} Logo`} className={styles.logo} />
                 <div className={styles.experienceItemDetails}>
                   <h3>{`${step.role} ${step.level} | ${step.company}`}</h3>
-                  <p>{`${step.startDate} - ${step.endDate}`}</p>
-                  <ul>
+                  <p className={styles.date}>{`${step.startDate} - ${step.endDate}`}</p>
+                  <p className={styles.description}>{step.description}</p>
+                  {/*<ul>
                     {step.experiences.map((experience, id) => {
                       return (
                         <li key={id}>
@@ -44,12 +46,12 @@ export const Experience = (props: ExperienceProps) => {
                         </li>
                       )
                     })}
-                  </ul>
+                  </ul>*/}
                 </div>
               </li>
             )
           })}
-        </ul>*/}
+        </ul>
       </div>
     </section>
   )
