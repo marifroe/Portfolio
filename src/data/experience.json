@@ -44,7 +44,7 @@
     "company": "SAP",
     "startDate": "Mar, 2020",
     "endDate": "Dec, 2023",
-    "description": "",
+    "description": "I worked with Unreal Engine 5 to implement a VR multiplayer experience in a proactive and self-structured manner. I integrated my feature into a larger modular project which involved adapting to unfamiliar codebases and collaborating with team members to ensure cohesion within the project framework. We utilized GitLab for version control and collaborative development. \n\nFurthermore, I experimented with motion capture from single-view images as well as hand- and face tracking using the Quest Pro for the creation of virtual humanoid guides. Being very ambituous, I achieved to tackle challenges in this innovative and fast-changing domain. In addition, I presented my findings in multinational knowledge exchange sessions.",
     "experiences": [
       "Unreal Engine 4 + 5",
       "Meta Quest"
