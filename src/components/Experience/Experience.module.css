@@ -2,7 +2,7 @@
 
 .container {
   color: var(--color-text);
-  padding: 100px 10%;
+  padding: 100px 20px;
   background: var(--color-neutral-light);
   background-image: linear-gradient(rgba(23, 23, 23, 0.2) .1em, transparent .1em), linear-gradient(90deg, rgba(23, 23, 23, 0.2) .1em, transparent .1em);
   background-size: 3em 3em;
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 14px;
+  margin: 0 10%;
   gap: 40px;
 }
 
@@ -142,7 +142,7 @@
 }
 
 .logo {
-  width: 50px;
+  width: 60px;
   object-fit: contain;
 }
 
@@ -189,6 +189,7 @@
     flex-direction: column-reverse;
     align-items: center;
     gap: 34px;
+    margin: 0;
   }
 
   .skills {

@@ -35,7 +35,7 @@ export const Experience = (props: ExperienceProps) => {
               <li className={styles.experienceItem} key={id}>
                 <img src={getImageUrl({ path: imageSrc })} alt={`${step.company} Logo`} className={styles.logo} />
                 <div className={styles.experienceItemDetails}>
-                  <h3>{`${step.role} ${step.level} | ${step.company}`}</h3>
+                  <h3>{`${step.role} ${step.level} at ${step.company}`}</h3>
                   <p className={styles.date}>{`${step.startDate} - ${step.endDate}`}</p>
                   <p className={styles.description}>{step.description}</p>
                   {/*<ul>
