@@ -42,17 +42,17 @@
 .buttons {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 40px;
 }
 
 .heroBtn {
   text-decoration: none;
   background-color: var(--color-pop-2);
-  color: var(--color-text-light);
+  color: #fff;
   border-radius: 100px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  padding: 17px 26px;
+  padding: 10px 20px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
 }
@@ -123,13 +123,27 @@
   .container {
     flex-direction: column-reverse;
     justify-content: center;
+    margin: 100px auto;
   }
 
   .content {
     align-items: center;
+    gap: 50px;
   }
 
   .description {
     display: none;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .heroBtn {
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
 }
