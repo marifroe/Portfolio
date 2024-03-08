@@ -138,12 +138,18 @@
   .buttons {
     flex-direction: column;
     gap: 20px;
-    width: 80%;
+    width: 100%;
     text-align: center;
   }
 
   .heroBtn {
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    text-transform: unset;
+  }
+
+  .title {
+    font-size: 55px;
   }
 }
