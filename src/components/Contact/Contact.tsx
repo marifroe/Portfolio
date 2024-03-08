@@ -10,15 +10,15 @@ export const Contact = (props: ContactProps) => {
     <footer id='contact' className={styles.container}>
       <div className={styles.text}>
         <h2 className={styles.title}>{props.title}</h2>
-        <p>Let's create Tomorrow</p>
+        <p className={styles.subtitle}>Let's create Tomorrow</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl({ path: 'contact/mail.png' })} alt='E-Mail Icon' />
+          <img src={getImageUrl({ path: 'contact/mail.png' })} alt='E-Mail' />
           <a href="mailto:marilena.froehlich@gmx.de">marilena.froehlich@gmx.de</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl({ path: 'contact/linkedin.png' })} alt='E-Mail Icon' />
+          <img src={getImageUrl({ path: 'contact/linkedin.png' })} alt='LinkedIn' />
           <a href="https://www.linkedin.com/in/marilenafroehlich/">My LinkedIn Profile</a>
         </li>
       </ul>
