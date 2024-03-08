@@ -157,6 +157,7 @@
     border-radius: 15px;
     width: 100%;
     text-transform: unset;
+    padding: 10px 5px;
   }
 
   .title {
