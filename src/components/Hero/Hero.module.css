@@ -50,12 +50,19 @@
   background-color: var(--color-pop-2);
   color: #fff;
   border-radius: 100px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   padding: 10px 20px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
 }
+
+.unfilled {
+    border: 2px solid var(--color-pop-2);
+    background: none;
+    color: var(--color-pop-2);
+    box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.5);
+  }
 
 .heroImg {
   width: 100%;
@@ -72,6 +79,7 @@
 .unhighlight {
   color: var(--color-neutral-medium);
   font-size: 16px;
+  line-height: normal;
 }
 
 @keyframes swinging {
@@ -128,15 +136,16 @@
 
   .content {
     align-items: center;
-    gap: 50px;
+    gap: 30px;
   }
 
   .description {
-    display: none;
+    font-size: 20px;
+    font-weight: 600;
   }
 
   .buttons {
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
     width: 100%;
     text-align: center;
@@ -146,10 +155,14 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 15px;
+    width: 100%;
     text-transform: unset;
   }
 
   .title {
     font-size: 55px;
+  }
+  .unhighlight {
+    display: none;
   }
 }

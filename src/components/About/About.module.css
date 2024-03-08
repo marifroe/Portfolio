@@ -29,8 +29,8 @@
   /* Frosted Glass Effect */
   background: #d2fff418;
   box-shadow: 0 4px 30px rgba(0,0,0,0.1);
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border: 1px solid #00423254;
 }
 
@@ -41,6 +41,7 @@
   font-size: larger;
   font-weight: 500;
   text-align: justify;
+  line-height: 1.5;
 
   span {
     font-weight: 700;
@@ -153,9 +154,8 @@
 
   .box {
     background: none;
-    margin-left: 10px;
-    margin-right: 10px;
-
+    margin: 40px 30px;
+    padding: 0px;
     box-shadow: none;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
@@ -164,5 +164,6 @@
 
   .content {
     text-align: left;
+    font-weight: 400;
   }
 }
