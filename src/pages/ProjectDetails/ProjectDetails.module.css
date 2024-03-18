@@ -87,3 +87,20 @@
   margin: 20px 0;
   color: var(--color-text)
 }
+
+@media screen and (max-width: 830px) {
+
+  .general {
+    width: 100%;
+  }
+
+  .generalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    padding: 25px 25px;
+    width: 100%;
+    margin: 0;
+  }
+}
