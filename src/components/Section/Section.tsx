@@ -78,8 +78,8 @@ export const Section = (props: SectionProps) => {
         }
         { props.text 
           ? <div className={styles.sectionText}>
-              <h2 className={styles.sectionTitle}>{props.title}</h2>
-              <p>{props.text}</p>
+              <h2 className={styles.title}>{props.title}</h2>
+              <p className={styles.text}>{props.text}</p>
             </div>
           : <h2 className={styles.sectionTitle}>{props.title}</h2>
         }

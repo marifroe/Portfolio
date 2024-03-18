@@ -1,6 +1,15 @@
-.sectionTitle {
-    margin-bottom: 50px;
+.title {
+    margin-bottom: 40px;
     text-align: left;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 2;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 2;
 }
 
 .sectionContainer {
@@ -35,9 +44,10 @@
 }
 
 .sectionImage {
-  width: 45%;
+  width: 30%;
   object-fit: contain;
   max-height: 400px;
+  margin: auto 0;
 }
 
 .sectionVideo {
@@ -49,7 +59,8 @@
 .sectionText {
   width: 45%;
   text-align: justify;
-  white-space: pre-line
+  white-space: pre-line;
+  padding: 50px;
 }
 
 @media screen and (max-width: 830px) {

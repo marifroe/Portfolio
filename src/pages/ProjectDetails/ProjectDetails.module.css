@@ -14,6 +14,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 50px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* The title of the project / page */
@@ -22,6 +28,8 @@
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
+  line-height: 2;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -32,16 +40,27 @@
 }
 
 .generalContainer {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
   justify-content: stretch;
   flex-wrap: wrap;
   gap: 50px;
   width: 100%;
+  background: #eee;
+  padding: 40px 80px;
+  border-radius: 15px;
+  margin: 50px auto;
 }
 
 .generalElement {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   max-width: 600px;
+}
+
+.generalText {
+  line-height: 1.5;
 }
 
 .skillsList {

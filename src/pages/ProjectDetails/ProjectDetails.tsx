@@ -25,26 +25,26 @@ export const ProjectDetails = () => {
           <Link to={{
             pathname: '/',
             hash: '#projects'
-          }} className={styles.link}>Back</Link>
+          }} className={styles.link}>&#8592; Back</Link>
           {/*<a href={`/#projects`} className={styles.link}> Back </a>*/}
           <div className={styles.general}>
             <h2 className={styles.title}>{project.title}</h2>
             <div className={styles.generalContainer}>
               <div className={styles.generalElement}>
                 <h3>Description</h3>
-                <p>{project.description}</p>
+                <p className={styles.generalText}>{project.description}</p>
               </div>
               <div className={styles.generalElement}>
                 <h3>Year</h3>
                 <p>{project.year}</p>
               </div>
               <div className={styles.generalElement}>
-                <h3>Context</h3>
-                <p>{project.context}</p>
-              </div>
-              <div className={styles.generalElement}>
                 <h3>Contribution</h3>
                 <p>{project.contribution}</p>
+              </div>
+              <div className={styles.generalElement}>
+                <h3>Context</h3>
+                <p>{project.context}</p>
               </div>
               <div className={styles.generalElement}>
                 <h3>Skills</h3>
@@ -61,6 +61,7 @@ export const ProjectDetails = () => {
             {
               project?.detailsSections.map(section => {
                 return <Section
+                  key={section.title}
                   title={section.title}
                   text={section.text}
                   mediaSrc={section.mediaSrc}

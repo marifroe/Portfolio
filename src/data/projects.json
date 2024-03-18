@@ -15,29 +15,29 @@
     "details": "humantourguides",
     "detailsSections": [
       {
-        "title": "Introduction",
+        "title": "A guided Visit in a \n  Mixed Reality Art Gallery",
         "text": "Working with UE4 and Meta's Quest Pro, I created a Mixed Reality art gallery prototype. I used the prototype as context to test three different representations of guides with varying degrees of visual realism. To simplify the creation process I looked at ways of recording real tour guides to transfer their behavioral realism onto the virtual guides. For example, I explored the Quest's body and face tracking to animate a MetaHuman. Through user testing, I then compared the representations towards Social Presence and overall user acceptance.",
         "mediaSrc": "projects/guides.png",
         "mediaType": "img",
         "layout": 1
       },
       {
-        "title": "Background and Aims",
+        "title": "Use natural Communication \n and provide Company",
         "text": "Virtual environments can be complex and overwhelming. In addition, when wearing a bulky head-mounted display one easily feels isolated from the real world. For my Master's thesis I investigated how humanoid embodied tour guides could be created to accompany and guide users in a Mixed Reality environment. Furthermore, I was interested in how the guide could efficiently explain content by applying Joint Attention Mechanisms such as Pointing and Gaze direction supported by verbal terms. I aimed to increase Social Presence to provide a trustworthy company, mental support and increase the level of comfort.",
         "mediaSrc": "projects/humantourguides/aims.png",
         "mediaType": "img",
         "layout": 2
       },
       {
-        "title": "The Guide's Characteristics",
+        "title": "Provide the Guide with humanoid Characteristics",
         "text": "State-of-the-Art guidance varies in terms of visual realism, level of embodiment and how they integrate into the immersive environment (Spatial Accuracy). While I explicitly sought to compare different levels of visual realism, the characteristics of the representations I compared cover all degrees for each characteristic trait.",
         "mediaSrc": "projects/humantourguides/characteristics.png",
         "mediaType": "img",
         "layout": 1
       },
       {
-        "title": "Recording Techniques",
-        "text": "As I ended up comparing one video based guide and two synthetic guides I needed different approaches for recording.",
+        "title": "Simplify the Creation Process",
+        "text": "It's way more convenient to just implement a simple text label or arrows as indicators to guide a user. But a virtual experience can profit a lot from an embodied guide. To make the creation of a humanoid guide accessible for everyone without any programming nor animation experience, I looked into different approaches. As I ended up comparing one video based guide and two synthetic guides I needed different approaches for recording.",
         "mediaSrc": "projects/humantourguides/recordingtechniques.png",
         "mediaType": "img",
         "layout": 2
@@ -51,10 +51,17 @@
       },
       {
         "title": "Recording the Synthetic Guides",
-        "text": "I explored different techniques to extract motion data from a single view image. They did not suffice to simultaneously track position in space, accurate hand gestures and facial expressions. I ended up using the Quest Pro's motion tracking capabilities to record hands, face and position of the guide.",
+        "text": "I ended up using the Quest Pro's motion tracking capabilities to record hands, face and position of the guide.",
         "mediaSrc": "PphSfkBe85A",
         "mediaType": "vid",
         "layout": 2
+      },
+      {
+        "title": "Capture Motion from a Video",
+        "text": "I explored different techniques to extract motion data from a single view image. However, none of the tested solutions did suffice to simultaneously track position in space, accurate hand gestures and facial expressions.",
+        "mediaSrc": "",
+        "mediaType": "none",
+        "layout": 1
       },
       {
         "title": "Mixed Reality Prototype",
